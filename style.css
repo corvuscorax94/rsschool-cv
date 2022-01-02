@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body
+{
+    background: #63e5dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #ebf7f7;
+    margin: 55px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+.container .leftSide
+{
+    position: relative;
+    background: #177f7f;
+    padding: 40px;
+}
+.textProfile
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2) ;
+}
+.textProfile .imgB
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;    
+}
+.textProfile .imgB img
+{
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.textProfile h2
+{
+    color: #ebf7f7;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.textProfile h2 span
+{
+    font-size: 0.8em;
+    font-weight: 320;
+}
+.contacts
+{
+    padding-top: 40px;
+}
+.title
+{
+    color:#ebf7f7;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contacts ul
+{
+    position: relative;
+}
+.contacts ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 8px 0;
+    cursor: pointer;
+}
+.contacts ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #07fafa;
+}
+.contacts ul li span
+{
+    color: #ebf7f7;
+    font-weight: 300;
+}
+.contacts.skills li
+{
+    margin-bottom: 15px;
+}
+.contacts.education li
+{
+    margin-bottom: 15px;
+}
+.contacts.education h5
+{
+    color: #07fafa;
+    font-weight: 500;    
+}
+.contacts.education h4:nth-child(2)
+{
+    color: #ebf7f7;
+    font-weight: 500;
+}
+.contacts.education h4
+{
+    color: #ebf7f7;
+    font-weight: 300;
+}
+
+.container .rightSide
+{
+    position: relative;
+    background: #ebf7f7;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title1
+{
+    color: #177f7f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+main
+{
+    color: #333;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .Ycompany
+{
+    min-width: 150px;
+}
+.about .box .Ycompany h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color: #177f7f;
+    font-size: 16px;
+}
+.footer 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 700px 0 0 0;
+}
+.github 
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;    
+    font-weight: 400;
+    color: #333;
+    position: relative;
+}
+.github:hover > p::after 
+{
+    width: calc(100% - 34px);
+}
+footer > span 
+{    
+    font-weight: 400;
+}
+.rss {
+    max-width: 90px;
+}
+@media(max-width: 1000px)
+{
+    .container
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
