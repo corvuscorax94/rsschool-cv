@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     margin: 20px;
-    background-image: url('./assets/svg/Vector.svg');
+    background-image: url('../assets/svg/Vector.svg');
     background-size: contain;
     background-repeat: no-repeat;  
     transition: 0.3s;
@@ -56,7 +56,7 @@
 }
 .head_main_bg
 {  
-  background-image: url('./assets/img/header-bg.jpg');
+  background-image: url('../assets/img/header-bg.jpg');
   background-position: center 0;
   background-repeat: no-repeat;
   position: relative;
@@ -149,7 +149,7 @@ button:hover {
   background-position: center top;
 }
 .skill-item1 {
-  background-image: url('./assets/svg/camera.svg');
+  background-image: url('../assets/svg/camera.svg');
   background-size: 62px 50px;
   background-repeat: no-repeat;
 }
@@ -167,7 +167,7 @@ button:hover {
   background-position: center top;
 }
 .skill-item2 {
-  background-image: url('./assets/svg/video.svg');
+  background-image: url('../assets/svg/video.svg');
   background-size: 62px 50px;
   background-repeat: no-repeat;
 }
@@ -184,7 +184,7 @@ button:hover {
   background-position: center top;
 }
 .skill-item3 {
-  background-image: url('./assets/svg/imagee.svg');
+  background-image: url('../assets/svg/imagee.svg');
   background-size: 62px 50px;
   background-repeat: no-repeat;
 }
@@ -201,7 +201,7 @@ button:hover {
   background-position: center top;
 }
 .skill-item4 {
-  background-image: url('./assets/svg/mic.svg');
+  background-image: url('../assets/svg/mic.svg');
   background-size: 62px 50px;
   background-repeat: no-repeat;
 }
@@ -294,7 +294,7 @@ color: #fff;
   border: 0ch;
   width: 130px;
   height: 130px;
-  background-image: url(/assets/svg/Play_Unvisited.svg);
+  background-image: url(../assets/svg/Play_Unvisited.svg);
   background-color: transparent;
   position: absolute;
   transform: translate(-50%,-30%);
@@ -380,7 +380,7 @@ h3 {
   justify-content: flex-end;
   max-width: 1440px;
   height: 700px;
-  background: url(/assets/img/contacts1.jpg);
+  background: url(../assets/img/contacts1.jpg);
 }
 .contact-box {
   display: flex;
